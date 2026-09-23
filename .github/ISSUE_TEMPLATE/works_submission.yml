@@ -1,0 +1,68 @@
+name: 🚀 作品入驻申请
+description: 提交你的作品到 Fiborn 社区
+labels: ["作品入驻"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚡ 欢迎申请入驻！
+
+  - type: input
+    id: name
+    attributes:
+      label: 作品名称
+      placeholder: 例如：端云协同智慧实验室巡检系统
+    validations:
+      required: true
+
+  - type: input
+    id: team
+    attributes:
+      label: 团队名称
+    validations:
+      required: true
+
+  - type: input
+    id: school
+    attributes:
+      label: 学校
+    validations:
+      required: true
+
+  - type: input
+    id: award
+    attributes:
+      label: 获奖情况
+      placeholder: 2025年第八届嵌赛·一等奖
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: 作品仓库地址
+      placeholder: https://github.com/Fiborn/2025-xxx
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 作品简介
+      placeholder: 这个作品解决了什么问题？
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 仓库已设置为 Public
+          required: true
+        - label: README.md 已填写完整
+          required: true
+        - label: 代码已上传
+          required: true
+        - label: 无敏感信息泄露
+          required: true

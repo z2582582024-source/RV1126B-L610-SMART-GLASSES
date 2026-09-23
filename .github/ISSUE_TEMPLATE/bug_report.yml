@@ -1,0 +1,23 @@
+name: 🐛 Bug报告
+description: 提交作品中的Bug
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 执行 xxx
+        2. 观察到 xxx
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志/截图
