@@ -24,7 +24,7 @@
 ├── docs/                   # 项目文档、设计报告、参考资料
 ├── hardware/               # 硬件设计资料 
 ├── firmware/               # 设备底层固件源码
-├── src/         # 边缘计算与智能算法
+├── edge_computing/         # 边缘计算与智能算法
 │   ├── algorithm/          # 业务算法代码
 │   ├── ai_model/           # 模型训练与部署文件
 │   └── requirements.txt    # 环境依赖   
